@@ -1,0 +1,1 @@
+<?phpdefine('yakusha', 1);include("_header.php");$MAGAZA["islem"] = "index";include("_template.php");	?>

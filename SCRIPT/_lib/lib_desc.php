@@ -1,0 +1,9 @@
+<?php
+
+$MAGAZA["site_baslik"] 	= "Düþ Yayýncýlýk &bull; Okunacak Çok Þey Var";
+$MAGAZA["site_isim"] 	= "Düþ Yayýncýlýk";
+$MAGAZA["site_slogan"] 	= "Okunacak Çok Þey Var";
+$MAGAZA["site_eposta"] 	= "admin@dusyayincilik.com";
+
+$MAGAZA["site_adres"] = "Düþ Yayýncýlýk - Adresi ";
+$MAGAZA["site_telefon"] = "+90 (123) 123 45 67";

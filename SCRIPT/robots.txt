@@ -1,0 +1,6 @@
+# robots.txt for dusyayincilik.com
+
+User-agent: *
+#Crawl-delay: 100
+Disallow: *https*
+Disallow: /klasor

@@ -1,0 +1,370 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+width : 960px;
+margin: 0px;
+padding: 0px;
+background: #B4F4FF url(_img/_nimbuslike/img01.jpg) repeat-x left top;
+line-height: 25px;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size: 13px;
+/* color: #5698A3; */
+}
+
+h1, h2, h3 { margin: 0px; padding: 0px; font-weight: normal; /* color: #337884; */}
+h1 { font-size: 20px; } h2 { font-size: 15px; } h3 { font-size: 10px; }
+hr { border: dotted 1px #E1E1E1; margin-top: 1.0em; margin-bottom: 1.0em; }
+
+p, ul, ol { margin-top: 0; font-weight: normal; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 13px; }
+
+ul, ol {
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+
+p { line-height: 1.5em; }
+ul, ol { margin: 0px; padding: 0px; list-style: none; }
+blockquote { }
+
+a { color: #80A000; text-decoration: none; }
+a:hover { text-decoration: none; }
+
+a img { border: none; }
+
+img.left { float: left; margin: 7px 30px 0 0; } 
+img.right { float: right; margin: 7px 0 0 30px; }
+/* hr { display: none; } */
+.list1 { }
+.list1 li { float: left; line-height: normal; }
+.list1 li img { margin: 0 30px 30px 0; }
+.list1 li.alt img { margin-right: 0; }
+
+#wrapper { width: 960px; margin: 0px; padding: 0px;}
+
+/* Header */
+
+#header-wrapper {
+width: 960px;
+height: 143px;
+margin: 0px;
+padding: 0px;
+}
+
+#header {
+width: 960px;
+height: 92px;
+margin: 0px;
+background: url(_img/_nimbuslike/img02.gif) no-repeat left top;
+}
+
+/* Logo */
+
+#logo {
+float: left;
+height: 52px;
+margin: 0px;
+padding: 40px 0px 0px 0px;
+}
+
+#logo h1 {
+float: left;
+margin: 0px;
+padding: 0px 0px 0px 40px;
+letter-spacing: -1px;
+text-transform: lowercase;
+font: bold 34px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#logo h1 a {
+color: #FFFFFF;
+}
+
+#logo h2 {
+float: left;
+padding: 10px 0px 0px 20px;
+letter-spacing: -1px;
+text-transform: lowercase;
+font-size: 14px;
+color: #E4EEB3;
+}
+
+#logo a {
+text-decoration: none;
+color: #E4EEB3;
+}
+
+/* Menu */
+
+#menu {
+width: 960px;
+height: 51px;
+margin: 0px;
+padding-left: 40px;
+background: url(_img/_nimbuslike/img03.jpg) no-repeat left top;
+}
+
+#menu ul {
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+
+#menu li {
+float: left;
+}
+
+#menu a {
+display: block;
+padding: 12px 20px 0px 22px;
+letter-spacing: -1px;
+text-decoration: none;
+text-transform: lowercase;
+font-size: 20px;
+font-weight: normal;
+color: #D7E6A2;
+}
+
+#menu a:hover {
+text-decoration: underline;
+}
+
+#menu .first a {
+background: none;
+padding-left: 0px;
+}
+
+
+/* Search */
+
+#search {
+float: right;
+width: 235px;
+padding: 50px 40px 0px 0px;
+}
+
+#search form {
+margin: 0 20px 0 0;
+}
+
+#search fieldset {
+margin: 0px;
+padding: 0px;
+border: none;
+margin: 0 20px 0 0;
+}
+
+#search input {
+float: left;
+}
+
+#search-text {
+width: 235px;
+height: 22px;
+padding: 3px 0px 0px 26px;
+background: url(_img/_nimbuslike/img10.jpg) no-repeat left top;
+border: none;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #E4EEB3;
+}
+
+#search-submit {
+float: left;
+width: 34px;
+height: 29px;
+background: url(_img/_nimbuslike/img17.jpg) no-repeat left top;
+border: none;
+color: #636363;
+}
+
+/* Page */
+
+#page {
+width: 960px;
+margin: 0px;
+padding: 0px;
+background: #FFFFFF url(_img/_nimbuslike/img04.gif) repeat-x left top;
+}
+
+#page-bgcontent {
+padding: 17px 15px 0px 15px;
+background: url(_img/_nimbuslike/img04.gif) repeat-x left top;
+}
+
+/* Content */
+
+#content {
+float: left;
+width: 690px;
+}
+
+#full {
+float: left;
+width: 930px;
+}
+#banner {
+width: 960px;
+margin: 0px;
+padding-bottom: 5px;
+}
+
+/* Post */
+
+.post .metin {
+letter-spacing: -1px;
+font-size: 10px;
+font-weight: normal;
+}
+
+
+.post .title h2 {
+letter-spacing: -1px;
+font-size: 17px;
+font-weight: normal;
+margin: 0px;
+padding: 0px;
+}
+
+.post .byline {
+/* letter-spacing: -1px; */
+font-size: 13px;
+/* color: #74C6D5; */
+}
+
+/* .post strong { color: #9B9A9A; } */
+
+.post .meta {
+height: 32px;
+padding-top: 6px;
+padding-left: 25px;
+background: url(_img/_nimbuslike/img06.jpg) repeat-x left top;
+}
+
+.post .meta a { }
+
+.post .entry {
+padding: 0px 0px 20px 0px;
+}
+
+.post .links {
+padding: 0px 30px 0px 0px;
+}
+
+.post .links .comments {
+padding-left: 20px;
+background: url(_img/_nimbuslike/img07.gif) no-repeat left 3px;
+}
+
+.post .links .permalink {
+padding-left: 17px;
+background: url(_img/_nimbuslike/img08.gif) no-repeat left 3px;
+}
+
+/* Sidebar */
+
+#sidebar {
+float: right;
+width: 225px;
+}
+
+#sidebar ul {
+margin: 0px;
+list-style: none;
+line-height: normal;
+border: none;
+}
+
+#sidebar li {
+margin-bottom: 20px;
+}
+
+#sidebar li ul {
+line-height: 160%;
+padding: 0px;
+/* background: url(_img/_nimbuslike/img12.jpg) no-repeat left top; */
+}
+
+#sidebar li li {
+margin: 0;
+padding: 10px 0px;
+background: url(_img/_nimbuslike/img09.jpg) repeat-x left bottom;
+}
+
+#sidebar p {
+margin: 0;
+}
+
+#sidebar h2 {
+width: 190px;
+height: 26px;
+padding: 20px 30px 10px 0px;
+/* background: url(_img/_nimbuslike/img11.jpg) no-repeat left top; */
+letter-spacing: -1px;
+text-align: left;
+text-transform: lowercase;
+font-size: 22px;
+font-weight: normal;
+}
+
+
+#sidebar p {
+line-height: 200%;
+padding-bottom: 20px;
+}
+
+#sidebar a {
+}
+
+/* Footer */
+
+#footer {
+width: 960px;
+height: 95px;
+margin: 0px;
+padding: 0px;
+background: url(_img/_nimbuslike/img04.gif) repeat-x left top;
+}
+
+#footer p {
+padding: 12px 0 0 0;
+text-align: center;
+line-height: normal;
+font-size: 13px;
+/* color: #A2CAD1; */
+}
+
+/* #footer a { color: #A2CAD1; } */
+
+
+.right_articles {
+border: 1px solid #96e7f8;
+padding: 8px;	
+margin: 0 0 10px 0;
+background: #e5fafe;
+color: #454545;
+-moz-border-radius:3px; 
+-khtml-border-radius:3px; 
+-webkit-border-radius:3px; 
+}
+
+.myproject {
+border-top: 1px dotted #96e7f8;
+padding: 5px 2px 5px 2px;	
+margin-bottom: 2px;	
+color: #454545;
+font-size:12px; 
+text-decoration:none; 
+}
+
+.vitrinler,a.vitrinler,a.vitrinler:link,a.vitrinler:visited,a.vitrinler:hover { 
+font-size:12px; 
+text-decoration:none; 
+}
+a.vitrinler:hover { 
+font-size:12px; 
+text-decoration:underline; 
+}

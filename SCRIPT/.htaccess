@@ -1,0 +1,25 @@
+Options  +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+rewritecond %{http_host} ^dusyayincilik.com [nc]
+rewriterule ^(.*)$ http://www.dusyayincilik.com/$1 [r=301,nc]
+
+Rewriterule ^(.+)-m([0-9]*).kitap$ makaledetay.php?id=$2[L]
+Rewriterule ^(.+)-k([0-9]*).kitap$ urundetay.php?pid=$2[L]
+
+Rewriterule ^sitemap-([0-9]*).xml$ sitemap.php?sayfa=$1 [L]
+Rewriterule ^sitemap.xml$ sitemap.php [L]
+
+Rewriterule ^feed/$ feed.php [L]
+Rewriterule ^feed$ feed.php [L]
+
+ErrorDocument 400 /hata.php 
+ErrorDocument 401 /hata.php 
+ErrorDocument 403 /hata.php 
+ErrorDocument 404 /hata.php 
+ErrorDocument 500 /hata.php 
+
+# ref li baðlantýlar için no spam
+RewriteCond %{THE_REQUEST} \?(ref=.*)?\ HTTP [NC]
+RewriteRule .? http://www.dusyayincilik.com? [R=301,L]

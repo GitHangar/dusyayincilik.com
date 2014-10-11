@@ -1,0 +1,38 @@
+KURULUM
+
+1 - add SCRIPT/ to yourwebsite.com/ dir.
+2 - create new database with "db.sql"
+
+--- | SET CHMOD 777
+
+SCRIPT/_cache/
+
+--- | OPEN
+
+SCRIPT/_lib/lib_con.php
+
+--- | FIND
+
+	$dbCon = array(
+		'host' => '',
+		'name' => '',
+		'user' => '',
+		'pass' => '',
+		'lang' => '',
+	);
+
+--- | REPLACE
+
+	$dbCon = array(
+		'host' => 'dbhost',
+		'name' => 'dbname',
+		'user' => 'dbuser',
+		'pass' => 'dbpassword',
+		'lang' => 'utf8',
+	);
+
+--- | LOGIN
+
+user: admin@dusyayincilik.com
+pass: admin
+
